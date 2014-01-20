@@ -1,2 +1,7 @@
 .list-group{
+	list-style-type: none;
+}
+
+.list-group-item:before {
+	content: "";
 }
