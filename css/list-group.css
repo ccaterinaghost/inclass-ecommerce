@@ -1,7 +1,17 @@
+/* makes a list in a vertical line without bullets. woo lol */
 .list-group{
 	list-style-type: none;
 }
 
 .list-group-item:before {
 	content: "";
+}
+
+.list-group-item{
+	display: block;
+}
+
+/*makes a list horizontal */
+.list-group-item-inline{
+	display: inline-block;
 }
